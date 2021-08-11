@@ -1,8 +1,3 @@
-# db-checkpoint
-
-- our first query set up the first two tables with their respective data
-
-```
 CREATE TABLE vacation_data (
     id SERIAL PRIMARY KEY,
     name VARCHAR (255) NOT NULL,
@@ -34,9 +29,3 @@ VALUES
     ('Lufthansa', '{"Tristan da Cunha", "Scotland", "Thailand"}'),
     ('Delta', '{"Thailand", "Minnesota", "England", "Scotland"}'),
     ('Southwest', '{"New Zealand", "Tristan da Cunha", "Minnesota"}');
-```
-
-- here is a description
-```
-code block
-```
